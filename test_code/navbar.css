@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+}
+
+.navbar {
+  width: 1440px;
+  height: 131px;
+  position: relative;
+}
+.navbar .text-box h1 {
+  position: absolute;
+  width: auto;
+  height: 34px;
+  left: 150px;
+  top: 50px;
+}
+.navbar .resume-btn {
+  width: auto;
+  height: 58px;
+  padding: 17px 24px 17px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  position: absolute;
+  right: 166px;
+  top: 38px;
+  text-align: center;
+}
+.navbar .resume-btn a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+}
