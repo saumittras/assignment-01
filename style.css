@@ -393,6 +393,109 @@ body {
 
 /* ########## My Current Target Section end Here 3######################## */
 
+/* ####################### My Next Target style Start from Here###################### */
+.my-next-target {
+  width: 1140px;
+  height: 800px;
+  margin: 0 auto;
+}
+.my-next-target .my-next-target-text-box {
+  height: 113px;
+  width: 950px;
+  margin: 0 auto;
+}
+.my-next-target .my-next-target-text-box h1 {
+  width: 852px;
+  height: 37px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+.my-next-target .my-next-target-text-box p {
+  width: 852px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin: 24px 0px;
+}
+
+.my-next-target .my-next-gartet-skills-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: 0px 24px;
+}
+.my-next-target .my-next-gartet-skills-box .tech-skills-card {
+  width: 1060px;
+  height: 139px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+}
+.my-next-target .my-next-gartet-skills-box .tech-skills-card .text {
+  width: 895px;
+  height: 139px;
+  margin: 16px 0px;
+}
+.my-next-target .my-next-gartet-skills-box .tech-skills-card h3 {
+  padding: 0px;
+  width: 110px;
+  height: 36px;
+  margin: 8px 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.my-next-target .my-next-gartet-skills-box .tech-skills-card p {
+  width: 880px;
+  height: 52px;
+  padding: 0px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.my-next-target .my-next-gartet-skills-box .tech-skills-card .image {
+  width: 100px;
+  height: 100px;
+}
+.my-next-target .my-next-gartet-skills-box .tech-skills-card .image {
+  width: 100%;
+  height: 100px;
+}
+
+/* ####################### My Next Target style end from Here###################### */
+
 /* #################### Need Support Style Start from here################# 33*/
 .need-support {
   width: 1140px;
