@@ -4,7 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Reset */
-* {
+*,
+body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -92,3 +93,36 @@
 /* group button style ends from here */
 
 /* ############ Hero Section Style Starts from here ########### */
+
+/* Footer style start from here */
+.footer-section {
+  height: 100px;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-section > .footer-content-box {
+  width: 90%;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 526px;
+  margin: 32px 0px;
+}
+.footer-section .footer-content-box .footer-content-left {
+  height: 36px;
+  margin-left: 100px;
+}
+.footer-section .footer-content-box .footer-content-right {
+  margin-right: 100px;
+}
+.footer-section .footer-content-box .footer-content-right .icon {
+  height: 36px;
+  width: 36px;
+  margin-right: 24px;
+}
