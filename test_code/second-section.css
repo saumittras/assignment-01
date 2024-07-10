@@ -1,5 +1,3 @@
-/* Font Setting starts from here*/
-
 /* ######### Azeret Mono ######## */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -10,90 +8,6 @@ body {
   margin: 0px;
   box-sizing: border-box;
 }
-
-/* Font Setting ends here */
-
-/* ############ Hero Section Style Starts from here ########### */
-.hero-section {
-  background: url("assets/hero-bg.png");
-  width: 1440px;
-  height: 652px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 74px;
-}
-.hero-section .hero-section-content-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 998px;
-  height: 652px;
-  margin: 26px 221px 44px 221px;
-}
-
-/* group image style starts from here */
-.hero-section .hero-section-content-box .hero-section-image {
-  width: 240.28px;
-  height: 240px;
-  margin-top: 26px;
-}
-/* group image style ends from here */
-
-/* group h1 style starts from here */
-
-.hero-section .hero-section-content-box h1 {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 68px;
-  letter-spacing: 0%;
-  text-align: center;
-  width: 998px;
-  height: 136px;
-  margin-bottom: 24px;
-}
-/* group h1 style ends from here */
-
-/* group p style starts from here */
-.hero-section .hero-section-content-box p {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0%;
-  text-align: center;
-  width: 852px;
-  height: 52px;
-  margin-bottom: 32px;
-}
-/* group p style ends from here */
-
-/* group button style starts from here */
-.hero-section .hero-section-content-box button {
-  border-radius: 8px;
-  background: rgb(13, 19, 33);
-  padding: 21px 24px 21px 24px;
-  margin-bottom: 44px;
-}
-.hero-section .hero-section-content-box button a {
-  align-items: center;
-  padding: 21px 24px 21px 24px;
-  color: rgb(255, 255, 255);
-  font-family: Azeret Mono;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 23px;
-  letter-spacing: 0%;
-  text-align: center;
-  text-decoration: none;
-}
-/* group button style ends from here */
-
-/* ############ Hero Section Style Starts from here ########### */
 
 /*  ########### Second Section Start from Here ############## */
 .second-section {
@@ -206,36 +120,3 @@ body {
 }
 
 /*  ########### Second Section Ends from Here ############## */
-
-/* Footer style start from here */
-.footer-section {
-  height: 100px;
-  width: 1440px;
-  display: flex;
-  flex-direction: row;
-  border-radius: 16px;
-  background: rgba(13, 19, 33, 0.03);
-}
-
-.footer-section > .footer-content-box {
-  width: 90%;
-  height: 36px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 526px;
-  margin: 32px 0px;
-}
-.footer-section .footer-content-box .footer-content-left {
-  height: 36px;
-  margin-left: 100px;
-}
-.footer-section .footer-content-box .footer-content-right {
-  margin-right: 100px;
-}
-.footer-section .footer-content-box .footer-content-right .icon {
-  height: 36px;
-  width: 36px;
-  margin-right: 24px;
-}
