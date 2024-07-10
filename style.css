@@ -207,6 +207,105 @@ body {
 
 /*  ########### Second Section Ends from Here ############## */
 
+/* #################### Need Support Style Start from here################# */
+.need-support {
+  width: 1140px;
+  height: 313px;
+  border: 2px solid black;
+  margin: 0 auto;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0.2) 100%
+    ),
+    url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.need-support .need-support-box {
+  width: 1044px;
+  height: 185px;
+}
+
+.need-support .need-support-box .need-support-text-box {
+  width: 730px;
+  height: 104px;
+
+  margin: 0 auto;
+}
+.need-support .need-support-box .need-support-text-box h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.need-support .need-support-box .need-support-text-box p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.need-support .need-support-box .need-support-form-box {
+  width: 684px;
+  height: 57px;
+
+  margin: 0 auto;
+  display: flex;
+}
+.need-support .need-support-box .need-support-form-box .text-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 19px 20px 19px 20px;
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+.need-support .need-support-box .need-support-form-box .submit-btn {
+  position: static;
+  width: 120px;
+  height: 57px;
+  display: flex;
+  padding: 17px 20px 17px 20px;
+  margin: 0px 16px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* #################### Need Support Style ends from here################# */
+
 /* Footer style start from here */
 .footer-section {
   height: 100px;

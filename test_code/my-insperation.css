@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* My insperation Style parts start from here */
+
+/* My insperation Style parts ends from here */
+.my-insperation {
+  height: 777px;
+  width: 1140px;
+  border: 2px solid black;
+  margin: 0 auto;
+
+  background: rgb(255, 255, 255);
+}
+.my-insperation .my-insperation-text {
+  width: 852px;
+  height: 115px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-bottom: 48px;
+}
+.my-insperation .my-insperation-text h1 {
+  width: 852px;
+  height: 39px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.my-insperation .my-insperation-text p {
+  color: rgb(13, 19, 33);
+  width: 852px;
+  height: 52px;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.my-insperation .my-insperation-video {
+  width: 1140px;
+  height: 614px;
+  border: 2px solid red;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.my-insperation .my-insperation-video video {
+  margin: 32px;
+  width: 1076px;
+  height: 550px;
+  border: 2px solid green;
+  border-radius: 16px;
+}
